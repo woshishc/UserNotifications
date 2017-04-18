@@ -1,0 +1,15 @@
+PODS:
+  - HCTools (1.0.0)
+  - NWPusher (0.7.4)
+
+DEPENDENCIES:
+  - HCTools
+  - NWPusher
+
+SPEC CHECKSUMS:
+  HCTools: 9e77fa3be7cbf81d331bb165abf049b91040f539
+  NWPusher: 9c10c5406354b793979ec8641f06c108ec75ff05
+
+PODFILE CHECKSUM: f53fecbac3eec4198c355cd7f940a16dbdb9f9f3
+
+COCOAPODS: 1.1.1

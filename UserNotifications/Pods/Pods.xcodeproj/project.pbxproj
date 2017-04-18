@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E91CCB878123F6680D9E5303351353 /* NWType.m in Sources */ = {isa = PBXBuildFile; fileRef = B01C7F4FFFC7BAAE58956C5E3D52E35C /* NWType.m */; };
+		098D08BC2015D4D752E9D112EF7D5712 /* HCTools.h in Headers */ = {isa = PBXBuildFile; fileRef = EA74E147065C85AB98EE49C413968E6D /* HCTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AE0DCD4A3F59255090D2278E4138F7D /* NWType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F85CB372AB22A699D71748F25B1D18A /* NWType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12E5287F2489EB216AE3CC196F23EFAE /* NWPusher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2EB1B478995C4BC0D49E8004A54EF5 /* NWPusher-dummy.m */; };
+		1F2127DFE750A4F7530F3E5D51088CA5 /* Foundation+Log.h in Headers */ = {isa = PBXBuildFile; fileRef = C2BDC4943633D11BC2F3070ADDC58BE5 /* Foundation+Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34238B92486319081C7466F9BB2B87C4 /* Pods-UserNotifications-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB4E1D57CBC30A02652387D0BA7ABF9 /* Pods-UserNotifications-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A8BABD02D50AD3F3D20466CC669371F /* NWNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BA5A0B0FF7AD3D56EF3E23FD983357 /* NWNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB0E0160B4AE6B7640E1FE68C6B72D3 /* HCTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E38241A2EEAA3E5F4AD0A3406B4EB3D3 /* HCTools-dummy.m */; };
+		45FD148D6603B865A2259C0AB9DF3883 /* NWSecTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C58EFE82D30805C61B9847466A4C936 /* NWSecTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		544C83D8BFFAC643201991593C5459FC /* NWPushFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915161E3910B82A8F607BD2A68421BD /* NWPushFeedback.m */; };
+		56213668E08251859D3B2570CF098F55 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241B3DC1BEAA70BD9A2B6AFB9A72323 /* UIView+Category.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5711CF4FA33A56D49F7689F7254D49C8 /* NWPushFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E99E26657FBB8ECF0BC814F03978C2 /* NWPushFeedback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A83F0FA4B51B5FBB4EB947CD0EDF06B /* NWPusher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0715E647D626A592D7CDF9FA61AE7F /* NWPusher.m */; };
+		5F6627E4CD0C040B6C1D7B69FBA862C9 /* NWPusher.h in Headers */ = {isa = PBXBuildFile; fileRef = F56D71AF26E3FE2D01D23AD65F6174CE /* NWPusher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61B421DAAE0B636C8B484E535E1B7BED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1698F9A4AE357BAEECB356D8902C9E4D /* Foundation.framework */; };
+		65CD6F0B2E72FA988A40AD874CB0BCCC /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB023002C7A87F686B4E036603ADAB /* UIColor+Category.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		67933CBA9D4C7E8C9E0D86340152DB79 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D51AF8B6E0F481593FCF260BFB999A0 /* Security.framework */; };
+		754B41732657DC282DB674E58C31FAC9 /* Others.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BD9A863C29B904A3495B4190334748D /* Others.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AF012E1E6E988950A3C53687AD14DD6 /* NWSecTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5B45B8F963384DC4DAB44B3766BC2B /* NWSecTools.m */; };
+		8E36171FD4B97714CDCB04767B986057 /* NWPusher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BEB76D914915055EC56D19EF6674CA6 /* NWPusher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		981CACEB16EF81C52B139F7CAAC5D985 /* UIView+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 0768B1C30F88C2D3EBD5BA93666440C7 /* UIView+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D491BF3826DD5A4D5035FFF1A44888 /* NWSSLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1017270DD7B82BE8EF22833CF355FCDF /* NWSSLConnection.m */; };
+		9C6C42E492C61EC310C28094C6CE0708 /* NWNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5FC0D439072472725B3527EE294A84 /* NWNotification.m */; };
+		A33DC96BCBD796FC19A0D0CF83906BE0 /* Pods-UserNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B502DF13F1D98DFF265CF658A70D976F /* Pods-UserNotifications-dummy.m */; };
+		A476ACC427B1DA302745A04A4B4EA7EC /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE56F9F3BBB24B8AC46AFCF2B727B1D /* NSString+Category.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AC0FAB5FD28C950BC146DCB236F28B97 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6B6D0A80C9DBB38CAD83358CD55D5 /* Foundation+Log.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AD86A1C63BC39D22A15C723FAF4E0C5B /* NWHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACBE47E0963324AE87F78599804C400 /* NWHub.m */; };
+		B096E1D14691C230F7EBAA0AFBAEF1AF /* UIColor+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E4DE9D5B9896189432F4B72558D592 /* UIColor+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2B5BA9E2E077CA15BF045B51087024D /* HCTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 318B432093120C227D130C4753C77B18 /* HCTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B33521C962FE3810FD674B61C99CC7A5 /* NWSSLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0828E577747CB7CF0B6A8B3C060FDB93 /* NWSSLConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0676C6469744E2EEBE20124257ADB79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFC4C47DAC64625B79ED69D7C85EBC7 /* UIKit.framework */; };
+		D29AA7DA583A29CFDEA540E59C870DD0 /* NSString+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 855C9CBC1A7CEE300142ADF1899E7A5F /* NSString+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBB386132FFB72628056C06D8408438B /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 011531A4305AAAF43D39156841D125F4 /* UIImage+Category.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DD8BDE7D312BEA877D2417246F3815F5 /* UIImage+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FFC70AA8D112356EF9E977C10824D9 /* UIImage+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB731DB06D293B966C0304C13EA59D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1698F9A4AE357BAEECB356D8902C9E4D /* Foundation.framework */; };
+		E5DD176BC253BA369CB50E46448611B4 /* NWHub.h in Headers */ = {isa = PBXBuildFile; fileRef = E883AD421FF798514E5A8E6ADC72CA27 /* NWHub.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA982F2DD639024F3CEB2B7734EB0BA5 /* Singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8CE06098B2DD3FEEA9D3C669504A3C /* Singleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD0F1ABB0826727166AA01965E6E7AA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1698F9A4AE357BAEECB356D8902C9E4D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1660B4B7327C7113A820CC33D3514DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39943E983B67120ACE932605A57A7C5A;
+			remoteInfo = HCTools;
+		};
+		606B73CF5C127DD49DCA3AC7406B5113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC9B68D42FD26A60BCEB86272B1E82B2;
+			remoteInfo = NWPusher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011531A4305AAAF43D39156841D125F4 /* UIImage+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Category.m"; path = "HCTools/UIImage+Category.m"; sourceTree = "<group>"; };
+		017BDAD2E95F6648C67F17B19C644F1B /* Pods-UserNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UserNotifications.release.xcconfig"; sourceTree = "<group>"; };
+		0768B1C30F88C2D3EBD5BA93666440C7 /* UIView+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Category.h"; path = "HCTools/UIView+Category.h"; sourceTree = "<group>"; };
+		0828E577747CB7CF0B6A8B3C060FDB93 /* NWSSLConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NWSSLConnection.h; path = Classes/NWSSLConnection.h; sourceTree = "<group>"; };
+		09E4DE9D5B9896189432F4B72558D592 /* UIColor+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Category.h"; path = "HCTools/UIColor+Category.h"; sourceTree = "<group>"; };
+		0CB4E1D57CBC30A02652387D0BA7ABF9 /* Pods-UserNotifications-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UserNotifications-umbrella.h"; sourceTree = "<group>"; };
+		0DDE3BE2BD2AEF9F4F574CA856B29667 /* Pods_UserNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UserNotifications.framework; path = "Pods-UserNotifications.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1017270DD7B82BE8EF22833CF355FCDF /* NWSSLConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NWSSLConnection.m; path = Classes/NWSSLConnection.m; sourceTree = "<group>"; };
+		1241B3DC1BEAA70BD9A2B6AFB9A72323 /* UIView+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Category.m"; path = "HCTools/UIView+Category.m"; sourceTree = "<group>"; };
+		13B5EAEE3700759A6E2ED40B386246D6 /* HCTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCTools.xcconfig; sourceTree = "<group>"; };
+		1698F9A4AE357BAEECB356D8902C9E4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1B544E8B9FA1B3C27F5A3F54BDB98B94 /* NWPusher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NWPusher.xcconfig; sourceTree = "<group>"; };
+		1D8CE06098B2DD3FEEA9D3C669504A3C /* Singleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = HCTools/Singleton.h; sourceTree = "<group>"; };
+		1F85CB372AB22A699D71748F25B1D18A /* NWType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NWType.h; path = Classes/NWType.h; sourceTree = "<group>"; };
+		22981E3C0EAD46E55FF734370AED2A3E /* Pods-UserNotifications-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UserNotifications-frameworks.sh"; sourceTree = "<group>"; };
+		2D0715E647D626A592D7CDF9FA61AE7F /* NWPusher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NWPusher.m; path = Classes/NWPusher.m; sourceTree = "<group>"; };
+		2E8420D2F094BB2D4EC7957F6B29ED34 /* Pods-UserNotifications-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UserNotifications-resources.sh"; sourceTree = "<group>"; };
+		318B432093120C227D130C4753C77B18 /* HCTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCTools-umbrella.h"; sourceTree = "<group>"; };
+		41530B6260C374431D565743A59963CB /* HCTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HCTools.modulemap; sourceTree = "<group>"; };
+		4C58EFE82D30805C61B9847466A4C936 /* NWSecTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NWSecTools.h; path = Classes/NWSecTools.h; sourceTree = "<group>"; };
+		4DBB023002C7A87F686B4E036603ADAB /* UIColor+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Category.m"; path = "HCTools/UIColor+Category.m"; sourceTree = "<group>"; };
+		52BA5A0B0FF7AD3D56EF3E23FD983357 /* NWNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NWNotification.h; path = Classes/NWNotification.h; sourceTree = "<group>"; };
+		52E99E26657FBB8ECF0BC814F03978C2 /* NWPushFeedback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NWPushFeedback.h; path = Classes/NWPushFeedback.h; sourceTree = "<group>"; };
+		57B2EA728263C99C737F623A5BFC1732 /* NWPusher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NWPusher.framework; path = NWPusher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BD16976560B2B6927E505B1706A02D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACBE47E0963324AE87F78599804C400 /* NWHub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NWHub.m; path = Classes/NWHub.m; sourceTree = "<group>"; };
+		5FFAB80C5BEFB6590985A83BD51F57EA /* Pods-UserNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UserNotifications.debug.xcconfig"; sourceTree = "<group>"; };
+		69FFC70AA8D112356EF9E977C10824D9 /* UIImage+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Category.h"; path = "HCTools/UIImage+Category.h"; sourceTree = "<group>"; };
+		6CE56F9F3BBB24B8AC46AFCF2B727B1D /* NSString+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Category.m"; path = "HCTools/NSString+Category.m"; sourceTree = "<group>"; };
+		7BEB76D914915055EC56D19EF6674CA6 /* NWPusher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NWPusher-umbrella.h"; sourceTree = "<group>"; };
+		7C699FF778090DA5367CC44E0C1E5590 /* HCTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCTools-prefix.pch"; sourceTree = "<group>"; };
+		7CBE2648B7C985C6EF64BDD6CE86CB2A /* NWPusher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NWPusher-prefix.pch"; sourceTree = "<group>"; };
+		7D2EB1B478995C4BC0D49E8004A54EF5 /* NWPusher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NWPusher-dummy.m"; sourceTree = "<group>"; };
+		7D51AF8B6E0F481593FCF260BFB999A0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		855C9CBC1A7CEE300142ADF1899E7A5F /* NSString+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Category.h"; path = "HCTools/NSString+Category.h"; sourceTree = "<group>"; };
+		8BD9A863C29B904A3495B4190334748D /* Others.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Others.h; path = HCTools/Others.h; sourceTree = "<group>"; };
+		8C5FC0D439072472725B3527EE294A84 /* NWNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NWNotification.m; path = Classes/NWNotification.m; sourceTree = "<group>"; };
+		8E392871A2276203A7C2CF2FEE02A15A /* Pods-UserNotifications-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UserNotifications-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9915161E3910B82A8F607BD2A68421BD /* NWPushFeedback.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NWPushFeedback.m; path = Classes/NWPushFeedback.m; sourceTree = "<group>"; };
+		ABE8FA5A5DDA99D8D1DA15396F4EE2B7 /* HCTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HCTools.framework; path = HCTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01C7F4FFFC7BAAE58956C5E3D52E35C /* NWType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NWType.m; path = Classes/NWType.m; sourceTree = "<group>"; };
+		B502DF13F1D98DFF265CF658A70D976F /* Pods-UserNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UserNotifications-dummy.m"; sourceTree = "<group>"; };
+		B9F6B6D0A80C9DBB38CAD83358CD55D5 /* Foundation+Log.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Foundation+Log.m"; path = "HCTools/Foundation+Log.m"; sourceTree = "<group>"; };
+		BA442DC6C676822F2441CD9FDE9B0DB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5B45B8F963384DC4DAB44B3766BC2B /* NWSecTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NWSecTools.m; path = Classes/NWSecTools.m; sourceTree = "<group>"; };
+		C2BDC4943633D11BC2F3070ADDC58BE5 /* Foundation+Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Foundation+Log.h"; path = "HCTools/Foundation+Log.h"; sourceTree = "<group>"; };
+		C8812D8D6EFCFE25CF31F78A1B19E01D /* Pods-UserNotifications.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UserNotifications.modulemap"; sourceTree = "<group>"; };
+		CDFC4C47DAC64625B79ED69D7C85EBC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2076CD6062DDDAC633C58E282D665CC /* Pods-UserNotifications-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UserNotifications-acknowledgements.plist"; sourceTree = "<group>"; };
+		E38241A2EEAA3E5F4AD0A3406B4EB3D3 /* HCTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCTools-dummy.m"; sourceTree = "<group>"; };
+		E883AD421FF798514E5A8E6ADC72CA27 /* NWHub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NWHub.h; path = Classes/NWHub.h; sourceTree = "<group>"; };
+		EA74E147065C85AB98EE49C413968E6D /* HCTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTools.h; path = HCTools/HCTools.h; sourceTree = "<group>"; };
+		EC22EAC12231D5D41807080A6999E22E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56D71AF26E3FE2D01D23AD65F6174CE /* NWPusher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NWPusher.h; path = Classes/NWPusher.h; sourceTree = "<group>"; };
+		FC01B1D1074D75112DA4C8F524EB2D9F /* NWPusher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NWPusher.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67FC7111CF70E6EB25ABFCFE228845CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0F1ABB0826727166AA01965E6E7AA4 /* Foundation.framework in Frameworks */,
+				C0676C6469744E2EEBE20124257ADB79 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFB4E9E0AC80EFAEC5710CB620117F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B421DAAE0B636C8B484E535E1B7BED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE19444A2E2E36EB8187EE539E18EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB731DB06D293B966C0304C13EA59D5 /* Foundation.framework in Frameworks */,
+				67933CBA9D4C7E8C9E0D86340152DB79 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037591CAD21C7B63DF3AFD85821C21F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC22EAC12231D5D41807080A6999E22E /* Info.plist */,
+				FC01B1D1074D75112DA4C8F524EB2D9F /* NWPusher.modulemap */,
+				1B544E8B9FA1B3C27F5A3F54BDB98B94 /* NWPusher.xcconfig */,
+				7D2EB1B478995C4BC0D49E8004A54EF5 /* NWPusher-dummy.m */,
+				7CBE2648B7C985C6EF64BDD6CE86CB2A /* NWPusher-prefix.pch */,
+				7BEB76D914915055EC56D19EF6674CA6 /* NWPusher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NWPusher";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C4E67CBDC955497435049997C205D94 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C4E67CBDC955497435049997C205D94 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1698F9A4AE357BAEECB356D8902C9E4D /* Foundation.framework */,
+				7D51AF8B6E0F481593FCF260BFB999A0 /* Security.framework */,
+				CDFC4C47DAC64625B79ED69D7C85EBC7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		33A5A4574B04AC13A115CBB9AC14BE89 /* Pods-UserNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				59BD16976560B2B6927E505B1706A02D /* Info.plist */,
+				C8812D8D6EFCFE25CF31F78A1B19E01D /* Pods-UserNotifications.modulemap */,
+				8E392871A2276203A7C2CF2FEE02A15A /* Pods-UserNotifications-acknowledgements.markdown */,
+				D2076CD6062DDDAC633C58E282D665CC /* Pods-UserNotifications-acknowledgements.plist */,
+				B502DF13F1D98DFF265CF658A70D976F /* Pods-UserNotifications-dummy.m */,
+				22981E3C0EAD46E55FF734370AED2A3E /* Pods-UserNotifications-frameworks.sh */,
+				2E8420D2F094BB2D4EC7957F6B29ED34 /* Pods-UserNotifications-resources.sh */,
+				0CB4E1D57CBC30A02652387D0BA7ABF9 /* Pods-UserNotifications-umbrella.h */,
+				5FFAB80C5BEFB6590985A83BD51F57EA /* Pods-UserNotifications.debug.xcconfig */,
+				017BDAD2E95F6648C67F17B19C644F1B /* Pods-UserNotifications.release.xcconfig */,
+			);
+			name = "Pods-UserNotifications";
+			path = "Target Support Files/Pods-UserNotifications";
+			sourceTree = "<group>";
+		};
+		52A070F41A4947057BC50FC0BFEFF803 /* NWPusher */ = {
+			isa = PBXGroup;
+			children = (
+				E883AD421FF798514E5A8E6ADC72CA27 /* NWHub.h */,
+				5ACBE47E0963324AE87F78599804C400 /* NWHub.m */,
+				52BA5A0B0FF7AD3D56EF3E23FD983357 /* NWNotification.h */,
+				8C5FC0D439072472725B3527EE294A84 /* NWNotification.m */,
+				F56D71AF26E3FE2D01D23AD65F6174CE /* NWPusher.h */,
+				2D0715E647D626A592D7CDF9FA61AE7F /* NWPusher.m */,
+				52E99E26657FBB8ECF0BC814F03978C2 /* NWPushFeedback.h */,
+				9915161E3910B82A8F607BD2A68421BD /* NWPushFeedback.m */,
+				4C58EFE82D30805C61B9847466A4C936 /* NWSecTools.h */,
+				BF5B45B8F963384DC4DAB44B3766BC2B /* NWSecTools.m */,
+				0828E577747CB7CF0B6A8B3C060FDB93 /* NWSSLConnection.h */,
+				1017270DD7B82BE8EF22833CF355FCDF /* NWSSLConnection.m */,
+				1F85CB372AB22A699D71748F25B1D18A /* NWType.h */,
+				B01C7F4FFFC7BAAE58956C5E3D52E35C /* NWType.m */,
+				037591CAD21C7B63DF3AFD85821C21F6 /* Support Files */,
+			);
+			name = NWPusher;
+			path = NWPusher;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				BA2ABE973CF7725D25A0A7EDCF04E958 /* Pods */,
+				81F6075E55A8F089F64B1039B56F21A2 /* Products */,
+				A3D28B87D37012F08DF64426DAB559E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81F6075E55A8F089F64B1039B56F21A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABE8FA5A5DDA99D8D1DA15396F4EE2B7 /* HCTools.framework */,
+				57B2EA728263C99C737F623A5BFC1732 /* NWPusher.framework */,
+				0DDE3BE2BD2AEF9F4F574CA856B29667 /* Pods_UserNotifications.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3D28B87D37012F08DF64426DAB559E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33A5A4574B04AC13A115CBB9AC14BE89 /* Pods-UserNotifications */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA2ABE973CF7725D25A0A7EDCF04E958 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F84868ED06ADF2AEFB190134B0065628 /* HCTools */,
+				52A070F41A4947057BC50FC0BFEFF803 /* NWPusher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D438EDB70C57BEEF64E36F8FF4DBFC2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41530B6260C374431D565743A59963CB /* HCTools.modulemap */,
+				13B5EAEE3700759A6E2ED40B386246D6 /* HCTools.xcconfig */,
+				E38241A2EEAA3E5F4AD0A3406B4EB3D3 /* HCTools-dummy.m */,
+				7C699FF778090DA5367CC44E0C1E5590 /* HCTools-prefix.pch */,
+				318B432093120C227D130C4753C77B18 /* HCTools-umbrella.h */,
+				BA442DC6C676822F2441CD9FDE9B0DB3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HCTools";
+			sourceTree = "<group>";
+		};
+		F84868ED06ADF2AEFB190134B0065628 /* HCTools */ = {
+			isa = PBXGroup;
+			children = (
+				C2BDC4943633D11BC2F3070ADDC58BE5 /* Foundation+Log.h */,
+				B9F6B6D0A80C9DBB38CAD83358CD55D5 /* Foundation+Log.m */,
+				EA74E147065C85AB98EE49C413968E6D /* HCTools.h */,
+				855C9CBC1A7CEE300142ADF1899E7A5F /* NSString+Category.h */,
+				6CE56F9F3BBB24B8AC46AFCF2B727B1D /* NSString+Category.m */,
+				8BD9A863C29B904A3495B4190334748D /* Others.h */,
+				1D8CE06098B2DD3FEEA9D3C669504A3C /* Singleton.h */,
+				09E4DE9D5B9896189432F4B72558D592 /* UIColor+Category.h */,
+				4DBB023002C7A87F686B4E036603ADAB /* UIColor+Category.m */,
+				69FFC70AA8D112356EF9E977C10824D9 /* UIImage+Category.h */,
+				011531A4305AAAF43D39156841D125F4 /* UIImage+Category.m */,
+				0768B1C30F88C2D3EBD5BA93666440C7 /* UIView+Category.h */,
+				1241B3DC1BEAA70BD9A2B6AFB9A72323 /* UIView+Category.m */,
+				D438EDB70C57BEEF64E36F8FF4DBFC2C /* Support Files */,
+			);
+			name = HCTools;
+			path = HCTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03EA35C8BE8772268A715A5C44C7BEF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34238B92486319081C7466F9BB2B87C4 /* Pods-UserNotifications-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25AFFC6B17FBC064FFA39930BF4D6A52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5DD176BC253BA369CB50E46448611B4 /* NWHub.h in Headers */,
+				3A8BABD02D50AD3F3D20466CC669371F /* NWNotification.h in Headers */,
+				8E36171FD4B97714CDCB04767B986057 /* NWPusher-umbrella.h in Headers */,
+				5F6627E4CD0C040B6C1D7B69FBA862C9 /* NWPusher.h in Headers */,
+				5711CF4FA33A56D49F7689F7254D49C8 /* NWPushFeedback.h in Headers */,
+				45FD148D6603B865A2259C0AB9DF3883 /* NWSecTools.h in Headers */,
+				B33521C962FE3810FD674B61C99CC7A5 /* NWSSLConnection.h in Headers */,
+				0AE0DCD4A3F59255090D2278E4138F7D /* NWType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DD4674F174C8043602FFDCF7C22020 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2127DFE750A4F7530F3E5D51088CA5 /* Foundation+Log.h in Headers */,
+				B2B5BA9E2E077CA15BF045B51087024D /* HCTools-umbrella.h in Headers */,
+				098D08BC2015D4D752E9D112EF7D5712 /* HCTools.h in Headers */,
+				D29AA7DA583A29CFDEA540E59C870DD0 /* NSString+Category.h in Headers */,
+				754B41732657DC282DB674E58C31FAC9 /* Others.h in Headers */,
+				EA982F2DD639024F3CEB2B7734EB0BA5 /* Singleton.h in Headers */,
+				B096E1D14691C230F7EBAA0AFBAEF1AF /* UIColor+Category.h in Headers */,
+				DD8BDE7D312BEA877D2417246F3815F5 /* UIImage+Category.h in Headers */,
+				981CACEB16EF81C52B139F7CAAC5D985 /* UIView+Category.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39943E983B67120ACE932605A57A7C5A /* HCTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09AD0813D2988C59FB6D89C169AFB5D /* Build configuration list for PBXNativeTarget "HCTools" */;
+			buildPhases = (
+				DDE9FAED797FDA36D53FD4C8FA025C63 /* Sources */,
+				67FC7111CF70E6EB25ABFCFE228845CF /* Frameworks */,
+				94DD4674F174C8043602FFDCF7C22020 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCTools;
+			productName = HCTools;
+			productReference = ABE8FA5A5DDA99D8D1DA15396F4EE2B7 /* HCTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		599EB09885ADD9763C5E3CDE84C2BC05 /* Pods-UserNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1299E21218DA84ECEFE11F38846E6FF /* Build configuration list for PBXNativeTarget "Pods-UserNotifications" */;
+			buildPhases = (
+				F732347BD66CBD7762F131ECABFC7E14 /* Sources */,
+				8BFB4E9E0AC80EFAEC5710CB620117F6 /* Frameworks */,
+				03EA35C8BE8772268A715A5C44C7BEF1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07DD17478DD70EBEB25A48CC27A12251 /* PBXTargetDependency */,
+				EBC9948E232CDE737CE659047140BD7C /* PBXTargetDependency */,
+			);
+			name = "Pods-UserNotifications";
+			productName = "Pods-UserNotifications";
+			productReference = 0DDE3BE2BD2AEF9F4F574CA856B29667 /* Pods_UserNotifications.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC9B68D42FD26A60BCEB86272B1E82B2 /* NWPusher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFBE0646C22443DDFD8084D11DD3C54 /* Build configuration list for PBXNativeTarget "NWPusher" */;
+			buildPhases = (
+				6D456212B90EDF81E146C216ACD8C461 /* Sources */,
+				DDE19444A2E2E36EB8187EE539E18EC1 /* Frameworks */,
+				25AFFC6B17FBC064FFA39930BF4D6A52 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NWPusher;
+			productName = NWPusher;
+			productReference = 57B2EA728263C99C737F623A5BFC1732 /* NWPusher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 81F6075E55A8F089F64B1039B56F21A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39943E983B67120ACE932605A57A7C5A /* HCTools */,
+				FC9B68D42FD26A60BCEB86272B1E82B2 /* NWPusher */,
+				599EB09885ADD9763C5E3CDE84C2BC05 /* Pods-UserNotifications */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D456212B90EDF81E146C216ACD8C461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD86A1C63BC39D22A15C723FAF4E0C5B /* NWHub.m in Sources */,
+				9C6C42E492C61EC310C28094C6CE0708 /* NWNotification.m in Sources */,
+				12E5287F2489EB216AE3CC196F23EFAE /* NWPusher-dummy.m in Sources */,
+				5A83F0FA4B51B5FBB4EB947CD0EDF06B /* NWPusher.m in Sources */,
+				544C83D8BFFAC643201991593C5459FC /* NWPushFeedback.m in Sources */,
+				8AF012E1E6E988950A3C53687AD14DD6 /* NWSecTools.m in Sources */,
+				98D491BF3826DD5A4D5035FFF1A44888 /* NWSSLConnection.m in Sources */,
+				06E91CCB878123F6680D9E5303351353 /* NWType.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE9FAED797FDA36D53FD4C8FA025C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0FAB5FD28C950BC146DCB236F28B97 /* Foundation+Log.m in Sources */,
+				3EB0E0160B4AE6B7640E1FE68C6B72D3 /* HCTools-dummy.m in Sources */,
+				A476ACC427B1DA302745A04A4B4EA7EC /* NSString+Category.m in Sources */,
+				65CD6F0B2E72FA988A40AD874CB0BCCC /* UIColor+Category.m in Sources */,
+				DBB386132FFB72628056C06D8408438B /* UIImage+Category.m in Sources */,
+				56213668E08251859D3B2570CF098F55 /* UIView+Category.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F732347BD66CBD7762F131ECABFC7E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33DC96BCBD796FC19A0D0CF83906BE0 /* Pods-UserNotifications-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07DD17478DD70EBEB25A48CC27A12251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HCTools;
+			target = 39943E983B67120ACE932605A57A7C5A /* HCTools */;
+			targetProxy = 1660B4B7327C7113A820CC33D3514DB6 /* PBXContainerItemProxy */;
+		};
+		EBC9948E232CDE737CE659047140BD7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NWPusher;
+			target = FC9B68D42FD26A60BCEB86272B1E82B2 /* NWPusher */;
+			targetProxy = 606B73CF5C127DD49DCA3AC7406B5113 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		40A101A9453C0D7FCC2BF51D1889B8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FFAB80C5BEFB6590985A83BD51F57EA /* Pods-UserNotifications.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UserNotifications/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UserNotifications/Pods-UserNotifications.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UserNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EC0D91AC3F46ACD2E8D710206C3682D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B5EAEE3700759A6E2ED40B386246D6 /* HCTools.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HCTools/HCTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HCTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HCTools/HCTools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HCTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		599C90AAEE8D382934040AE7EA051DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B544E8B9FA1B3C27F5A3F54BDB98B94 /* NWPusher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NWPusher/NWPusher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NWPusher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NWPusher/NWPusher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NWPusher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		667A77ED471906B00D76BA40B55127BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017BDAD2E95F6648C67F17B19C644F1B /* Pods-UserNotifications.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UserNotifications/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UserNotifications/Pods-UserNotifications.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UserNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7973851E86BB9886A0833C68C37CEDFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B544E8B9FA1B3C27F5A3F54BDB98B94 /* NWPusher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NWPusher/NWPusher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NWPusher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NWPusher/NWPusher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NWPusher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA936C51F07297DFC02253EB390C5049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B5EAEE3700759A6E2ED40B386246D6 /* HCTools.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HCTools/HCTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HCTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HCTools/HCTools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HCTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1299E21218DA84ECEFE11F38846E6FF /* Build configuration list for PBXNativeTarget "Pods-UserNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A101A9453C0D7FCC2BF51D1889B8C4 /* Debug */,
+				667A77ED471906B00D76BA40B55127BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFBE0646C22443DDFD8084D11DD3C54 /* Build configuration list for PBXNativeTarget "NWPusher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7973851E86BB9886A0833C68C37CEDFE /* Debug */,
+				599C90AAEE8D382934040AE7EA051DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B09AD0813D2988C59FB6D89C169AFB5D /* Build configuration list for PBXNativeTarget "HCTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC0D91AC3F46ACD2E8D710206C3682D /* Debug */,
+				DA936C51F07297DFC02253EB390C5049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
